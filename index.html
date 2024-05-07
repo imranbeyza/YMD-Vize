@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+*{
+  margin: 100;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.slider{
+  margin-right: 50px;
+}
+
+
+
+        
+        .section{
+          position: relative;
+          width: 100%;
+          min-height: 100vh;
+          padding: 100px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: #fff; 
+        }
+         .header{
+          position: absolute;
+          top:0;
+          left:50px;
+          width: 100%;
+          padding: 20px 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+         }
+         .logo{
+             position: relative;
+             max-width: 80px;
+             left:5px;
+
+         }
+         .input1{
+             position: relative;
+             display:flex ;
+            right: 550px;
+              width: 0px
+         }
+         .input2{
+             list-style: none;
+             
+         }
+         .buton{
+             display: inline-block;
+             color: black;
+             font-weight: 400;
+             margin-left: 40px;
+             text-decoration: none;
+             font-size: 20px;
+         }
+         .buton:hover{
+           border-bottom: 5px solid #017143;
+           color: #017143;
+         }
+         .content{
+             position: relative;
+             width: 100%;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+         }
+         .text{
+             position: relative;
+             max-width: 600px;
+         }
+         .txt{
+             color: #333;
+             font-size: 4em;
+             line-height: 1.4em;
+             font-weight: 500;
+         }
+         .span{
+             color: #017143;
+             font-size: 1.2em;
+             font-weight: 900;
+         }
+         .sci{
+           position: absolute;
+           top: 50%;
+           right: 30px;
+           left: 1300px;
+           transform: translateY(-50%);
+           display: flex;
+           justify-content:center;
+          flex-direction: column;
+           align-items: center;
+           }
+          .sci li{
+            list-style: none;
+          }
+          .sci li a{
+           display: inline-block; 
+           margin: 5px 0;
+           transform: scale(0.6);
+          }
+          .sci li a img{
+            width: 50px;
+            height: 50px;
+          }
+          .circle{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #017143;
+            clip-path: circle( 700px at right 800px);
+          }
+       
+    </style>
+ 
+</head>
+
+<body style="margin: 0px; padding: 0px; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif ;">
+  
+</div>
+    <div class="section">
+      <div class="circle"></div>
+        <div class="header">
+            <a href="#" class="logo" ><img src="logo1.png"style="height:150px; width= 150px";></a> 
+            <ul class="input1">
+               
+              <li class="input2"><a class="buton" href="index.html">Anasayfa </a></li>
+              <li class="input2"><a class="buton" href="hakkında.html">Hakkımda</a></li>
+              <li class="input2"><a class="buton" href="projeler.html">Projelerim </a></li>
+              <li class="input2"><a class="buton" href="iletişim.html">İletişim </a></li>
+       
+            
+                
+            </ul>
+          </div> 
+        <div class="content">
+            <div class="text">
+                <h2 class="txt">İmran Beyza<br><span class="span">Yazılım</span>Mühendisi</h2>
+    
+            </div>
+     <div class="slider">   
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slayt1.png" alt="Los Angeles" class="d-block" style="width:500px;height: 300px">
+    </div>
+    <div class="carousel-item">
+      <img src="slayt3.png" alt="Chicago" class="d-block"style="width:500px;height: 300px" >
+    </div>
+    <div class="carousel-item">
+      <img src="slayt2.png" alt="New York" class="d-block" style="width:500px;height: 300px">
+    </div>
+  </div>
+  
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>   
+                <ul class="sci">
+                  <li><a href="https://github.com/imranbeyza"><img src="github.png"></a></li>
+                  <li><a href="https://twitter.com/Twitter"><img src="twitter.png "></a></li>
+                  <li><a href="https://www.instagram.com/instagram/?hl=tr"><img src="instagram.png"></a></li>
+                </ul>
+                
+               
+             
+                
+          
+              </div>
+    
+</body>
+</html>
